@@ -1,0 +1,32 @@
+databases:
+  - name: listmonk-db
+    databaseName: listmonk
+    user: listmonk
+
+services:
+  - type: web
+    name: listmonk
+    runtime: docker
+    plan: starter
+    autoDeploy: false
+    envVars:
+      - key: LISTMONK_db__host
+        fromDatabase:
+          name: listmonk-db
+          property: host
+      - key: LISTMONK_db__port
+        fromDatabase:
+          name: listmonk-db
+          property: port
+      - key: LISTMONK_db__user
+        fromDatabase:
+          name: listmonk-db
+          property: user
+      - key: LISTMONK_db__password
+        fromDatabase:
+          name: listmonk-db
+          property: password
+      - key: LISTMONK_db__database
+        fromDatabase:
+          name: listmonk-db
+          property: database
