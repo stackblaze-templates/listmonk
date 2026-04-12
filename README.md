@@ -1,4 +1,4 @@
-# Listmonk [![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com) [![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/listmonk/actions) [![License](https://img.shields.io/github/license/stackblaze-templates/listmonk)](LICENSE) [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
+# Listmonk [![Version](https://img.shields.io/badge/version-4-0055d4)](https://github.com/stackblaze-templates/listmonk) [![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com) [![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/listmonk/actions) [![License](https://img.shields.io/github/license/stackblaze-templates/listmonk)](LICENSE) [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
 <p align="center"><img src="logo.png" alt="listmonk" width="120"></p>
 
