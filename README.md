@@ -1,19 +1,12 @@
-# Listmonk
+<p align="center"><img src="logo.png" alt="listmonk" width="120"></p>
 
-<p align="center"><img src="logo.png" alt="Listmonk" width="120"></p>
-
-
-[![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com)
-[![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/listmonk/actions)
-[![License](https://img.shields.io/github/license/stackblaze-templates/listmonk)](LICENSE)
+# Listmonk [![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com) [![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/listmonk/actions) [![License](https://img.shields.io/github/license/stackblaze-templates/listmonk)](LICENSE) [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
 A self-hosted newsletter and mailing list manager. High-performance email campaigns with a modern UI and analytics.
 
 > **Credits**: Built on [Listmonk](https://listmonk.app) by [Kailash Nadh](https://github.com/knadh). All trademarks belong to their respective owners.
 
 ## Deploy on StackBlaze
-
-[![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
 This template includes a `stackblaze.yaml` for one-click deployment on [StackBlaze](https://stackblaze.com).
 
