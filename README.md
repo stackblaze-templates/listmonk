@@ -9,6 +9,7 @@ A self-hosted newsletter and mailing list manager. High-performance email campai
 ## Local Development
 
 ```bash
+cp .env.example .env          # then edit .env with a strong POSTGRES_PASSWORD
 docker compose up
 ```
 
@@ -88,6 +89,24 @@ flowchart LR
 **Best for:** Production workloads, high-traffic applications, business-critical deployments.
 
 </details>
+
+---
+
+## Security
+
+### Environment variables you MUST set before production
+
+| Variable | Description |
+|---|---|
+| `POSTGRES_PASSWORD` | PostgreSQL password — **never** leave the default `change_me_before_production` value |
+| `POSTGRES_USER` | PostgreSQL username (default: `listmonk`) |
+| `POSTGRES_DB` | PostgreSQL database name (default: `listmonk`) |
+
+> **Warning:** The default `docker-compose.yml` requires `POSTGRES_PASSWORD` to be set explicitly via a `.env` file (it will refuse to start without it). Copy `.env.example` to `.env` and replace all placeholder values before running in production.
+
+### First-run admin setup
+
+Listmonk does not ship default admin credentials. On first run, navigate to `http://localhost:9000` and complete the installation wizard to create your admin account.
 
 ---
 
