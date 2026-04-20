@@ -1,8 +1,11 @@
 .env
 .env.local
 *.env
-*.log
-.DS_Store
+.git
+.gitignore
 *.pem
 *.key
 credentials
+*.log
+.DS_Store
+README.md
